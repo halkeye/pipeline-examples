@@ -1,4 +1,4 @@
 node {
-  sh("printenv")
-  echo(scm)
+  sh("printenv | sort")
+  echo(scm.toString())
 }
